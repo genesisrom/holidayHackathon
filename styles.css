@@ -19,12 +19,12 @@ a {
 }
 
 a:visited {
-    color: white; /* Override the visited color */
+    color: white;
 }
 
 a:hover {
     color: red;
-    text-decoration: underline; /* Optional hover effect */
+    text-decoration: underline;
 }
 
 #logo {
@@ -236,6 +236,7 @@ a:hover {
     margin-left: 80px;
     text-align: center;
 }
+
 /* Forms */
 form {
     margin-left: 100px;
@@ -284,14 +285,4 @@ input[type="submit"]:hover {
 form {
     display: inline-block;
     vertical-align: top;
-}
-
-/* Animations */
-@keyframes bounce {
-    0%, 100% {
-        transform: translateY(0);
-    }
-    50% {
-        transform: translateY(-10px);
-    }
 }
